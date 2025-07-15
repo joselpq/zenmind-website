@@ -5,13 +5,13 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'ZenMind - Soluções Inteligentes para Negócios',
-  description: 'Transformamos a comunicação empresarial com inteligência artificial e automação via WhatsApp.',
-  keywords: 'whatsapp business, automação, inteligência artificial, chatbot, atendimento ao cliente',
+  title: 'ZenMind - Seu Consultor Financeiro via WhatsApp',
+  description: 'Democratizamos o acesso a consultoria financeira através de IA. Ajudamos brasileiros a gerenciar melhor seu dinheiro, poupar mais e evitar dívidas.',
+  keywords: 'consultor financeiro, whatsapp, inteligência artificial, poupança, controle financeiro, consultoria financeira, finanças pessoais, brasil',
   authors: [{ name: 'ZenMind' }],
   openGraph: {
-    title: 'ZenMind - Soluções Inteligentes para Negócios',
-    description: 'Transformamos a comunicação empresarial com inteligência artificial e automação via WhatsApp.',
+    title: 'ZenMind - Seu Consultor Financeiro via WhatsApp',
+    description: 'Democratizamos o acesso a consultoria financeira através de IA. Ajudamos brasileiros a gerenciar melhor seu dinheiro.',
     url: 'https://www.zenmind.com.br',
     siteName: 'ZenMind',
     locale: 'pt_BR',
