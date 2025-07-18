@@ -96,13 +96,22 @@ body::before {
 }
 
 .tagline {
-  font-size: 1.5rem;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
   text-align: center;
-  letter-spacing: 0.1em;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   animation: fadeInUp 2s ease-out 0.5s both;
+  max-width: 600px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: fadeInUp 2s ease-out 0.7s both;
 }
 
 .mission-text {
@@ -142,6 +151,99 @@ body::before {
 
 .feature-icon {
   font-size: 1.2rem;
+}
+
+.trust-elements {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  animation: fadeInUp 2s ease-out 1.2s both;
+}
+
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.trust-icon {
+  font-size: 1.5rem;
+}
+
+.whatsapp-cta {
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 4rem;
+  animation: fadeInUp 2s ease-out 1.5s both;
+}
+
+.whatsapp-cta h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, #25D366, #128C7E, #075E54);
+  background-size: 300% 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientShift 3s ease-in-out infinite;
+}
+
+.whatsapp-cta p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(45deg, #25D366, #128C7E);
+  color: white;
+  text-decoration: none;
+  padding: 1.2rem 2.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(37, 211, 102, 0.5);
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.phone-number {
+  margin-top: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
+
+.phone-number strong {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+}
+
+.cta-note {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: inline-block;
 }
 
 .coming-soon {
@@ -273,7 +375,12 @@ body::before {
   }
   
   .tagline {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    padding: 0 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
     padding: 0 1rem;
   }
   
@@ -319,5 +426,30 @@ body::before {
   .footer-links a {
     display: block;
     margin: 0.5rem 0;
+  }
+  
+  .trust-elements {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .trust-item {
+    font-size: 0.85rem;
+  }
+  
+  .whatsapp-cta h2 {
+    font-size: 1.6rem;
+  }
+  
+  .whatsapp-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  .phone-number {
+    font-size: 0.85rem;
   }
 }
