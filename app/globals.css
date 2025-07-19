@@ -153,13 +153,62 @@ body::before {
   font-size: 1.2rem;
 }
 
+.value-props {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: fadeInUp 2s ease-out 1.2s both;
+}
+
+.value-props h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.value-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.2rem;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.value-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
+}
+
+.value-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.value-item span:last-child {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
 .trust-elements {
   display: flex;
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
   margin-bottom: 3rem;
-  animation: fadeInUp 2s ease-out 1.2s both;
+  animation: fadeInUp 2s ease-out 1.4s both;
 }
 
 .trust-item {
@@ -179,7 +228,7 @@ body::before {
   max-width: 500px;
   text-align: center;
   margin-bottom: 4rem;
-  animation: fadeInUp 2s ease-out 1.5s both;
+  animation: fadeInUp 2s ease-out 1.6s both;
 }
 
 .whatsapp-cta h2 {
@@ -451,5 +500,26 @@ body::before {
   
   .phone-number {
     font-size: 0.85rem;
+  }
+  
+  .value-props h3 {
+    font-size: 1.3rem;
+  }
+  
+  .value-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .value-item {
+    padding: 1rem;
+  }
+  
+  .value-icon {
+    font-size: 1.5rem;
+  }
+  
+  .value-item span:last-child {
+    font-size: 0.9rem;
   }
 }

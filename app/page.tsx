@@ -6,7 +6,7 @@ export default function Home() {
       </div>
       
       <div className="tagline">
-        Acabou o dinheiro no fim do mês? A ZenMind te ajuda a economizar pelo WhatsApp
+        Acabou o dinheiro? A ZenMind te ajuda a economizar, pelo WhatsApp
       </div>
       
       <div className="subtitle">
@@ -15,9 +15,9 @@ export default function Home() {
       
       <div className="mission-text">
         <p className="mission-description">
-          Personalizado para você através de inteligência artificial. Nossa missão é ajudar 
-          todos os brasileiros a gerenciar melhor seu dinheiro, poupar mais e evitar dívidas 
-          desnecessárias, para atingirem seus objetivos.
+          Personalizado para você através de inteligência artificial. Nossa missão é te ajudar 
+          a gerenciar melhor seu dinheiro, poupar mais e evitar dívidas desnecessárias, 
+          para atingir seus objetivos.
         </p>
         
         <div className="features">
@@ -32,6 +32,28 @@ export default function Home() {
           <div className="feature-item">
             <span className="feature-icon">📈</span>
             <span>Dinheiro sobrando todo mês</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="value-props">
+        <h3>Com a ZenMind você vai:</h3>
+        <div className="value-grid">
+          <div className="value-item">
+            <span className="value-icon">📊</span>
+            <span>Saber exatamente quanto você gasta</span>
+          </div>
+          <div className="value-item">
+            <span className="value-icon">💰</span>
+            <span>Entender quanto precisa guardar</span>
+          </div>
+          <div className="value-item">
+            <span className="value-icon">🎯</span>
+            <span>Definir e alcançar suas metas financeiras</span>
+          </div>
+          <div className="value-item">
+            <span className="value-icon">📱</span>
+            <span>Tudo pelo WhatsApp, simples e prático</span>
           </div>
         </div>
       </div>
@@ -72,7 +94,7 @@ export default function Home() {
         </div>
         
         <p className="cta-note">
-          🎁 Primeiros 1.000 usuários: consultoria grátis para sempre
+          🎁 Primeiros 2.000 inscritos: recursos premium liberados para sempre
         </p>
       </div>
       
